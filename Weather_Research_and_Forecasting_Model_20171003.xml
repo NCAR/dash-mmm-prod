@@ -45,7 +45,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2019-02-13T15:32:41</gco:DateTime>
+        <gco:DateTime>2019-02-13T15:36:41</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -171,7 +171,7 @@
             <gmd:abstract>
                 <gco:CharacterString>The Weather Research and Forecasting (WRF) Model is a numerical weather prediction system designed for both atmospheric research and operational forecasting purposes. It features two dynamical cores, a data assimilation system, and a software architecture facilitating massively parallel computation and system extensibility. The model serves a wide range of meteorological applications across scales from tens of meters to thousands of kilometers. It has an extensive worldwide user community and is supported by the National Center for Atmospheric Research. 
                                     
-                  Please note that in addition to the current version, other versions of WRF are alsol available at the following link: http://www2.mmm.ucar.edu/wrf/users/download/get_source.html</gco:CharacterString>
+Please note that in addition to the current version, other versions of WRF are alsol available at the following link: http://www2.mmm.ucar.edu/wrf/users/download/get_source.html</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>Mesoscale and Microscale Meteorology Laboratory [ProjectLeader]</gco:CharacterString>
