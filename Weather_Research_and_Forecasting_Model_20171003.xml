@@ -20,9 +20,11 @@
     <gmd:hierarchyLevelName gco:nilReason="missing"/>
     <gmd:contact>
         <gmd:CI_ResponsibleParty>
-            <gmd:individualName gco:nilReason="missing"/>
+            <gmd:individualName>
+                <gco:CharacterString>Jordan Powers </gco:CharacterString>
+            </gmd:individualName>
             <gmd:organisationName>
-                <gco:CharacterString>WRF-Help at UCAR/NCAR</gco:CharacterString>
+                <gco:CharacterString>UCAR/NCAR</gco:CharacterString>
             </gmd:organisationName>
             <gmd:positionName gco:nilReason="missing"/>
             <gmd:contactInfo>
@@ -30,7 +32,7 @@
                     <gmd:address>
                         <gmd:CI_Address>
                             <gmd:electronicMailAddress>
-                                <gco:CharacterString>wrfhelp@ucar.edu</gco:CharacterString>
+                                <gco:CharacterString>powers@ucar.edu</gco:CharacterString>
                             </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                     </gmd:address>
@@ -43,7 +45,7 @@
         </gmd:CI_ResponsibleParty>
     </gmd:contact>
     <gmd:dateStamp>
-        <gco:DateTime>2017-10-03T15:42:47</gco:DateTime>
+        <gco:DateTime>2019-02-13T15:32:41</gco:DateTime>
     </gmd:dateStamp>
     <gmd:metadataStandardName>
         <gco:CharacterString>ISO 19115</gco:CharacterString>
@@ -149,12 +151,27 @@
                             </gmd:role>
                         </gmd:CI_ResponsibleParty>
                     </gmd:citedResponsibleParty>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Joe Klemp</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>UCAR/NCAR</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName gco:nilReason="missing"/>
+                            <gmd:role>
+                                <gmd:CI_RoleCode
+                                    codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
                 </gmd:CI_Citation>
             </gmd:citation>
             <gmd:abstract>
                 <gco:CharacterString>The Weather Research and Forecasting (WRF) Model is a numerical weather prediction system designed for both atmospheric research and operational forecasting purposes. It features two dynamical cores, a data assimilation system, and a software architecture facilitating massively parallel computation and system extensibility. The model serves a wide range of meteorological applications across scales from tens of meters to thousands of kilometers. It has an extensive worldwide user community and is supported by the National Center for Atmospheric Research. 
-                    
-  Please note that in addition to the current version, other versions of WRF are alsol available at the following link: http://www2.mmm.ucar.edu/wrf/users/download/get_source.html</gco:CharacterString>
+                                    
+                  Please note that in addition to the current version, other versions of WRF are alsol available at the following link: http://www2.mmm.ucar.edu/wrf/users/download/get_source.html</gco:CharacterString>
             </gmd:abstract>
             <gmd:credit>
                 <gco:CharacterString>Mesoscale and Microscale Meteorology Laboratory [ProjectLeader]</gco:CharacterString>
@@ -165,9 +182,11 @@
             </gmd:status>
             <gmd:pointOfContact>
                 <gmd:CI_ResponsibleParty>
-                    <gmd:individualName gco:nilReason="missing"/>
+                    <gmd:individualName>
+                        <gco:CharacterString>Jordan Powers </gco:CharacterString>
+                    </gmd:individualName>
                     <gmd:organisationName>
-                        <gco:CharacterString>WRF-Help at UCAR/NCAR</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR</gco:CharacterString>
                     </gmd:organisationName>
                     <gmd:positionName gco:nilReason="missing"/>
                     <gmd:contactInfo>
@@ -175,7 +194,7 @@
                             <gmd:address>
                                 <gmd:CI_Address>
                                     <gmd:electronicMailAddress>
-                                    <gco:CharacterString>wrfhelp@ucar.edu</gco:CharacterString>
+                                    <gco:CharacterString>powers@ucar.edu</gco:CharacterString>
                                     </gmd:electronicMailAddress>
                                 </gmd:CI_Address>
                             </gmd:address>
@@ -184,30 +203,6 @@
                     <gmd:role>
                         <gmd:CI_RoleCode
                             codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-                    </gmd:role>
-                </gmd:CI_ResponsibleParty>
-            </gmd:pointOfContact>
-            <gmd:pointOfContact>
-                <gmd:CI_ResponsibleParty>
-                    <gmd:individualName gco:nilReason="missing"/>
-                    <gmd:organisationName>
-                        <gco:CharacterString>WRF-Help at UCAR/NCAR</gco:CharacterString>
-                    </gmd:organisationName>
-                    <gmd:positionName gco:nilReason="missing"/>
-                    <gmd:contactInfo>
-                        <gmd:CI_Contact>
-                            <gmd:address>
-                                <gmd:CI_Address>
-                                    <gmd:electronicMailAddress>
-                                    <gco:CharacterString>WRF-Help at UCAR/NCAR</gco:CharacterString>
-                                    </gmd:electronicMailAddress>
-                                </gmd:CI_Address>
-                            </gmd:address>
-                        </gmd:CI_Contact>
-                    </gmd:contactInfo>
-                    <gmd:role>
-                        <gmd:CI_RoleCode
-                            codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
                     </gmd:role>
                 </gmd:CI_ResponsibleParty>
             </gmd:pointOfContact>
@@ -257,7 +252,7 @@
                 <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
                         <gco:CharacterString>To see the details of the WRF Public Domain Notice, please go to the following link:
-                                      http://www2.mmm.ucar.edu/wrf/users/public.html</gco:CharacterString>
+                                                            http://www2.mmm.ucar.edu/wrf/users/public.html</gco:CharacterString>
                     </gmd:useLimitation>
                     <gmd:otherConstraints>
                         <gco:CharacterString>Registration on the WRF Users website is a requirement for the access and download of WRF.</gco:CharacterString>
@@ -276,7 +271,7 @@
             <gmd:extent gco:nilReason="missing"/>
             <gmd:supplementalInformation>
                 <gco:CharacterString>For additional information on WRF please see this link:
-                        http://www2.mmm.ucar.edu/wrf/users/pub-doc.html</gco:CharacterString>
+                                        http://www2.mmm.ucar.edu/wrf/users/pub-doc.html</gco:CharacterString>
             </gmd:supplementalInformation>
         </gmd:MD_DataIdentification>
     </gmd:identificationInfo>
