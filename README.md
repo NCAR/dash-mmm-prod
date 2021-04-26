@@ -12,6 +12,11 @@ Files contain metadata in a standardized, machine-readable format, and conform t
 
 https://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MD-Metadata.pdf
 
+## MMM Completeness Graph
+
+![MMM Completeness Graph](https://github.com/NCAR/dash-eol-prod/blob/master/actions/MMM/barcharts/mmm.png)
+
+
 ## Publisher Information
 
 Files in this GitHub repository are managed by NCAR lab representatives in charge of producing metadata for the digital assets published or maintained by their specific NCAR lab.
